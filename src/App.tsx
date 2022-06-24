@@ -1,4 +1,4 @@
-import { Event } from "./pages/event"
+import { Event } from "./pages/Event"
 
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
   
       <Event />
   
-    
-  )
+      )
 }
 
 export default App
