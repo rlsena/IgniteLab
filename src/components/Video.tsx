@@ -46,9 +46,11 @@ export function Video(props:VideoProps){
     })
 
     if(!data || !data.lesson){
+        return(
         <div className="flex-1">
             carregando...
         </div>
+        );
     }
 
     return (
