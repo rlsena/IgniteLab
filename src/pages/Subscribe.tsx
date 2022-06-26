@@ -1,7 +1,7 @@
 import { gql, useMutation} from "@apollo/client"
 import { useState, FormEvent } from "react"
 import { useNavigate } from "react-router-dom"
-import { Logo } from "./logo"
+import { Logo } from "../components/logo"
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
 mutation CreateSubscriber($name: String!, $email:String!){
